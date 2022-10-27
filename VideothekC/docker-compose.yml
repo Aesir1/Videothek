@@ -1,0 +1,34 @@
+version: '3'
+networks:
+  mynet:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+services:
+  dbsql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Test1234@
+    ports:
+      - '5000:5000'
+    networks:
+      mynet:
+        ipv4_address: 172.20.0.11
+    container_name: mydbsql
+  videoapi:
+    image: aesir1/videocore:2
+    ports:
+      - '8080:80'
+    networks:
+      mynet:
+        ipv4_address: 172.20.0.15
+    depends_on:
+      - dbsql
+  reactfront:
+    image: aesir1/reactapp
+    ports:
+      - '3000:3000'
+    networks:
+      mynet:
+        ipv4_address: 172.20.0.20
