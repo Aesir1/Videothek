@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alain Gomez\\personal\\VideothekC\\VideothekC\\VideothekC.csproj": {}
+    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Videothek\\VideothekC\\VideothekC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alain Gomez\\personal\\VideothekC\\VideothekC\\VideothekC.csproj": {
+    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Videothek\\VideothekC\\VideothekC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alain Gomez\\personal\\VideothekC\\VideothekC\\VideothekC.csproj",
+        "projectUniqueName": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Videothek\\VideothekC\\VideothekC.csproj",
         "projectName": "VideothekC",
-        "projectPath": "C:\\Users\\Alain Gomez\\personal\\VideothekC\\VideothekC\\VideothekC.csproj",
-        "packagesPath": "C:\\Users\\Alain Gomez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alain Gomez\\personal\\VideothekC\\VideothekC\\obj\\",
+        "projectPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Videothek\\VideothekC\\VideothekC.csproj",
+        "packagesPath": "C:\\Users\\AlainBryanFatjoGomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Videothek\\VideothekC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alain Gomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlainBryanFatjoGomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
