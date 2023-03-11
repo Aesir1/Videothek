@@ -16,7 +16,7 @@ services:
       - backend
     container_name: database
   videoapi:
-    image: aesir1/videocore:2
+    image: aesir1/videocore:5
     ports:
       - '8080:80'
     networks:
